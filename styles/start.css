@@ -40,4 +40,10 @@ a{
     background-image: linear-gradient(#F20519 30%, #3038D9 70%);
     border-radius: 10px;
     text-decoration: none;
+    border: 1px;;
+}
+
+a:hover{
+    color: black;
+    background-image: linear-gradient(#3038D9 30%,#F20519 70%);
 }
