@@ -8,8 +8,7 @@ body{
     font-family: "Bangers", serif;
     font-size: 30px;
     width: auto;
-    display: flex;
-    justify-content: center;
+
 }
 
 div{
@@ -20,7 +19,9 @@ div{
     height: 1080px;
     position: absolute;
     top: 0%;
-    }
+    display: flex;
+    justify-content: center;
+}
 
 .principal img{
     max-width: 100%;
@@ -38,3 +39,8 @@ div{
     height: 400px;
 }
 
+.test{
+    width: 1140px;
+    height: 1080px;
+    background-color: aquamarine;
+}
