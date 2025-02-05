@@ -9,18 +9,22 @@ body{
 }
 
 /* redmensionando o foote,mainr e inserindo o banner */
-footer{
-    max-width: 100%;
-    margin: 0 auto;
-    background:url(../images/bannercheco.png);
-    height: 800px;
-}
-
+footer,
 main{
     max-width: 100%;
     margin: 0 auto;
-    background:url(../images/bareih.png);
     height: 800px;
+}
+
+/* inserindo imagem no footer */
+footer{
+    background:url(../images/bannercheco.png);
+
+}
+/* inserindo imagem no main */
+main{
+    background:url(../images/bareih.png);
+
 }
 
 /* ajustando a logo na info bar */
