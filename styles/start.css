@@ -56,11 +56,6 @@ main{
     font-family: "Archivo Black", serif;
 }
 
-/* definindo tamanho da foto */
-#photome{
-    width: 320px;  
-}
-
 /* alterando,parágrafo tamanho do h1 e a fonte */
 h1{
     font-size: xx-large;
