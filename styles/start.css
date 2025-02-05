@@ -10,6 +10,7 @@ body{
 
 /* redmensionando o foote,mainr e inserindo o banner */
 footer,
+header,
 main{
     max-width: 100%;
     margin: 0 auto;
@@ -17,7 +18,7 @@ main{
 }
 
 /* inserindo imagem no footer */
-footer{
+header{
     background:url(../images/bannercheco.png);
 
 }
@@ -25,6 +26,10 @@ footer{
 main{
     background:url(../images/bareih.png);
 
+}
+
+footer{
+    background: url(../images/rebull.png);
 }
 
 /* ajustando a logo na info bar */
@@ -41,6 +46,11 @@ main{
 }
 
 /* inserindo preenchimento 100% do tamanho definido */
+.fav-music img,
+.artist-music img,
+#game1 img,
+#game2 img,
+#game3 img,
 #phtome img,
 #redbull-logo img{
     max-width: 100%;
@@ -76,4 +86,48 @@ p{
     margin-left: 20px;
     color: #ffffff;
     font-family: "Archivo Black", serif;
+}
+
+/* Centralizando e  ajustando a distâncias das imagens do jogos */
+.games{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    height: 20px;
+}
+
+/* ajustando o tamanho */
+#game1 img,
+#game2 img,
+#game3 img{
+    max-width: 400px;
+}
+
+.scroll{
+    font-family: "Archivo Black", serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    height:100px;
+}
+
+#artist{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    height: 400px;
+}
+
+.artist-music ,
+.fav-music {
+    text-align: center;
+    font-family: "Archivo Black", serif;
+    color: #ffffff
+}
+
+.artist-music img,
+.fav-music img{
+    text-align: center;
+    font-family: "Archivo Black", serif;
+    height: 500px;
 }
