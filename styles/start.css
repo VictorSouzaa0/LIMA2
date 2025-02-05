@@ -62,11 +62,13 @@ h1{
     margin-left: 20px;
 }
 
+/* alterando tamanho no texto de apresentação */
 p{
     font-size: larger;
     margin-left: 20px;
 }
 
+/* centralizando o titulos "joguinhos" e colocando uma fonte */
 .scrolldown{
     display: flex;
     justify-content: space-evenly;
