@@ -118,12 +118,6 @@ p{
     height: 400px;
 }
 
-.artist-music ,
-.fav-music {
-    text-align: center;
-    font-family: "Archivo Black", serif;
-    color: #ffffff
-}
 
 .artist-music img,
 .fav-music img{
